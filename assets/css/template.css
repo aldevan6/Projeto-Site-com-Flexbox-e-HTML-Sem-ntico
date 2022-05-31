@@ -1,3 +1,6 @@
+*{
+    font-family: arial;
+}
 body{
     margin: 0;
     padding: 0;
@@ -35,7 +38,6 @@ nav a{
     text-decoration: none;
     text-transform:uppercase;
     color:#727272;
-    font-family:arial;
 }
 
 nav .active a,
@@ -79,7 +81,63 @@ nav a:hover{
     max-width: 350px;
     margin-top: 30px;
 }
-.banne_options{
-    background-color: #ff0;
+.banner_options{
+    display: flex;
     height: 210px;
+}
+.banner1,
+.banner2,
+.banner3{
+    flex: 1;
+    color: #fff;
+    padding: 20px;
+}
+.banner1{
+    background-color:#39aae1;
+}
+.banner2{
+    background-color:#0079c7;
+}
+.banner3{
+    background-color:#2b4c99;
+}
+.banner_title{
+    font-size:21px;
+}
+.banner_desc{
+    font-size:12px;
+    padding: 20px 0;
+}
+.banner_options a{
+    display: inline-block;
+    color: #fff;
+    font-size:13px;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 5px;
+}
+#geral{
+    display:flex;
+    justify-content: center;
+}
+#geral section{
+    flex: 2;
+}
+#geral aside{
+    flex: 1;
+}
+.widget_title{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.widget_title_text{
+    color: #000;
+    font-size:21px;
+    font-weight:bold;
+}
+.widget_title_bar{
+    width:50px;
+    height: 2px;
+    background-color: #36a9e1;
+    margin-top:10px;
 }
