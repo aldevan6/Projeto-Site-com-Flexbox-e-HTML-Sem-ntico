@@ -312,4 +312,47 @@ footer .widget_title_text{
         flex-direction: column;
         justify-content: space-around;
     }
+    .aside_square {
+        width: 100%;
+    }
+}
+
+.widget_body_departaments{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;    
+}
+.aside_square{
+    height: 150px;
+    margin-top: 30px;
+    background-color: #39aae1;
+    min-width: 150px;
+}
+.widget_body_appointment {
+    margin-top: 30px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #5c5c5c;
+}
+.widget_content01{
+    display: flex;
+    align-items: center;
+}
+.widget_content02{
+    border-top: 1px solid #b6b6b6;
+    border-bottom: 1px solid #b6b6b6;
+}
+.widget_content_body{
+    margin-top: 30px;
+    border-top:1px solid #b6b6b6;
+    border-bottom:1px solid #b6b6b6;
+}
+.widget_content_text{
+    margin-left: 10px;
+}
+.sqaure{
+    margin:5px 0;
+    width: 30px;
+    height: 30px;
+    border: 5px solid #a7a7a7;
 }
