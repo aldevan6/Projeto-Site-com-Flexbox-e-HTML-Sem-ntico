@@ -282,6 +282,7 @@ footer .widget_title_text{
     #geral section,
     #geral aside    {
         padding:20px;
+        margin-top: 30px;
     }
     .footer_menu{
         flex-direction: column;
@@ -320,7 +321,8 @@ footer .widget_title_text{
 .widget_body_departaments{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;    
+    justify-content: space-between;
+    color:#fff;
 }
 .aside_square{
     height: 150px;
@@ -355,4 +357,13 @@ footer .widget_title_text{
     width: 30px;
     height: 30px;
     border: 5px solid #a7a7a7;
+}
+
+.banner3_conten{
+    display: flex;
+    border-bottom: 1px solid #a7a7a7;
+    justify-content: space-between;
+}
+.banner3_conten div{
+    padding: 10px 0;
 }
