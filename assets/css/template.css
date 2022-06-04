@@ -229,6 +229,13 @@ footer{
 .fm3 {
     background-color: #2b4c99;
 }
+.fm1_text{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.fm1_caption{
+    font-size: 14px;
+}
 .footer_area{
     display: flex; 
 }
@@ -366,4 +373,57 @@ footer .widget_title_text{
 }
 .banner3_conten div{
     padding: 10px 0;
+}
+.widget_body_footer{
+    margin-top: 20px;
+    font-size: 15px;
+}
+.widget_body_footer div{
+    color: #909090;
+}
+address{
+    display: flex;
+    margin-top: 30px;
+    margin-right: 20px;
+    justify-content: space-between;
+    font-size: 13px;
+    color: #909090;
+    line-height: 19px;
+}
+.widget_body_footer ul{
+    padding: 0;
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+.widget_body_footer li{
+    margin: 0;
+    padding-bottom: 5px;
+    color: #c5c5c5;
+    font-size: 14px;
+}
+span{
+    font-size: 12px;
+    font-weight: bold;
+    color: #0079c7;
+}
+.widget_body_footer2 ul{
+    padding: 0;
+    list-style-type: none;
+}
+.widget_body_footer2 li{
+    margin: 0;
+    padding-bottom: 5px;
+    font-size: 14px;
+    color: #909090;
+    
+}
+.widget_body_footer2 a{
+    text-decoration: none;
+    color: #c5c5c5;
+}
+.widget_body_footer2 a:hover{
+    text-decoration: underline;
+}
+i{
+    color: #c9c8c8;
 }
